@@ -10,8 +10,8 @@ export default defineConfig({
     outDir: 'lib',
     lib: {
         entry: resolve(__dirname, 'src/index.js'),
-        name: 'y-components',
-        filename: 'y-components',
+        name: 'vue-components',
+        filename: 'vue-components',
         formats: ['esm']
     },
     rollupOptions: {
