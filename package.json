@@ -1,6 +1,6 @@
 {
   "name": "@zhangyueqingyun_/vue-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "module": "lib/y-components.esm.js",
+  "module": "lib/vue-components.esm.js",
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
     "vite": "^3.1.0",
