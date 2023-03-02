@@ -1,3 +1,4 @@
+import '../../../lib/style.css'
 import defaultTheme from 'vitepress/theme';
 
 export default {
@@ -6,6 +7,6 @@ export default {
         import('../../../lib/vue-components.esm').then(function(m){
             app.use(m.default);
         })
-        import('../../../lib/style.css')
+        // import('../../../lib/style.css')
     }
 }

@@ -8,9 +8,6 @@ export default {
                 {
                     text: '基本组件',
                     children: [{
-                        text: '示例组件',
-                        link: '/components/demo/'
-                    },{
                         text: '按钮',
                         link: '/components/button/'
                     }]
