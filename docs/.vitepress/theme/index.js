@@ -6,5 +6,6 @@ export default {
         import('../../../lib/vue-components.esm').then(function(m){
             app.use(m.default);
         })
+        import('../../../lib/style.css')
     }
 }

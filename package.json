@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -20,6 +21,7 @@
     "vitepress": "^0.22"
   },
   "dependencies": {
+    "ant-design-vue": "3.3.0-beta.4",
     "vue": "^3.2.39"
   }
 }
