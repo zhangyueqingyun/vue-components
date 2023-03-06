@@ -5,16 +5,16 @@ specifiers:
   ant-design-vue: 3.3.0-beta.4
   vite: ^3.1.0
   vitepress: ^0.22
-  vue: ^3.2.39
+  vue-router: ^4.1.6
 
 dependencies:
   ant-design-vue: 3.3.0-beta.4_vue@3.2.39
-  vue: 3.2.39
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.39
   vite: 3.1.0
   vitepress: 0.22.4_tbpndr44ulefs3hehwpi2mkf2y
+  vue-router: 4.1.6_vue@3.2.39
 
 packages:
 
@@ -302,6 +302,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.39
       '@vue/shared': 3.2.39
+
+  /@vue/devtools-api/6.5.0:
+    resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
+    dev: true
 
   /@vue/reactivity-transform/3.2.39:
     resolution: {integrity: sha512-HGuWu864zStiWs9wBC6JYOP1E00UjMdDWIG5W+FpUx28hV3uz9ODOKVNm/vdOy/Pvzg8+OcANxAVC85WFBbl3A==}
@@ -1060,6 +1064,15 @@ packages:
       - react-dom
       - sass
       - stylus
+    dev: true
+
+  /vue-router/4.1.6_vue@3.2.39:
+    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue: 3.2.39
     dev: true
 
   /vue-types/3.0.2_vue@3.2.39:
