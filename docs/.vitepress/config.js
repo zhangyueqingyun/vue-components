@@ -8,8 +8,8 @@ export default {
                 {
                     text: '基本组件',
                     children: [{
-                        text: '按钮',
-                        link: '/components/button/'
+                        text: '井结构图',
+                        link: '/components/well-contruct/'
                     }]
                 }
             ], 

@@ -1,13 +1,13 @@
-import DemoButton from './components/button/button.vue';
+import WellContruct from './components/well-contruct/well-contruct.vue';
 import { Button } from 'ant-design-vue';
 import "ant-design-vue/dist/antd.css"; 
 
-export { DemoButton } ;
+export { WellContruct } ;
 
 const install = (App) => {
-    App.component('DemoButton', DemoButton);
+    App.component('WellContruct', WellContruct);
     
-    App.use(Button);
+    App.use(WellContruct);
 }
 
 export default {install};

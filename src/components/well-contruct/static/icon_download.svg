@@ -1,0 +1,4 @@
+
+<svg  contentScriptType="text/ecmascript" width="1024" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 1024 1024" height="1024" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" version="1.0">
+	<path d="M192 480v320a32 32 0 0 0 26.24 31.488L224 832h576a32 32 0 0 0 31.488-26.24L832 800v-320h64v320a96 96 0 0 1-86.784 95.552L800 896h-576a96 96 0 0 1-95.552-86.784L128 800v-320h64zM544.128 128l0.064 453.504 58.496-58.496 45.248 45.312L512.192 704 376.448 568.32l45.248-45.312 58.496 58.496V128h64z" p-id="668"></path>
+</svg>

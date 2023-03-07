@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Layout from './Layout.vue'
 import Home from './Home.vue';
-import Button from './Button.vue';
+import WellContruct from './well-contruct/well-contruct.vue'
 
 const routeConfig = [{
-    path: 'button',
-    name: 'button',
-    title: '按钮',
-    component: Button
+    path: 'well-contruct',
+    name: 'well-contruct',
+    title: '井深结构图',
+    component: WellContruct
 }];
 
 const Router = createRouter({

@@ -1,1 +1,0 @@
-const r=(o,n)=>{const t=o.__vccOpts||o;for(const[e,c]of n)t[e]=c;return t},s={};function u(o,n){return" \u6D4B\u8BD5\u7EC4\u4EF61 "}const m=r(s,[["render",u]]),a=o=>{o.component("DemoComponent",m)},f={install:a};export{m as DemoComponent,f as default};
