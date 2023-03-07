@@ -10,7 +10,5 @@ app.use(router);
 
 app.use(Button);
 app.use(Menu);
-app.use(MenuItem);
-app.use(SubMenu);
 
 app.mount('#app');
