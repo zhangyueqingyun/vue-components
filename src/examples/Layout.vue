@@ -54,7 +54,14 @@
         width: 250px;
         height: 100vh;
     }
+
+    .components-menu .ant-menu {
+        height: 100vh;
+    }
     .example-container {
         padding: 15px;
+        height: 100vh;
+        flex-grow: 1;
+        overflow: auto;
     }
 </style>
