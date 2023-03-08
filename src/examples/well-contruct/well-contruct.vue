@@ -1,5 +1,5 @@
 <template>
-    <a-card title="井深结构图">
+    <a-card title="井深结构图" :headStyle="{background: '#fafafa'}">
         <well-contruct 
             :datas="datas" 
             :isDrawDrillTools = "true" 
