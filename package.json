@@ -1,11 +1,14 @@
 {
   "name": "@zhangyueqingyun_/vue-components",
-  "version": "1.0.6-alpha.1",
+  "version": "1.0.6-alpha.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "pub:dev": "npm publish --access public --tag=alpha",
+    "pub:pre": "npm publish --access public --tag=beta",
+    "pub": "npm publish --access public --tag=latest",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
