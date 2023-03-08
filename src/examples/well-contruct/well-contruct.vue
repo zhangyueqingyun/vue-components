@@ -1,38 +1,13 @@
 <template>
-    <div id="app">
-        <div class="hello">
-            <well-contruct :datas="datas" :isDrawDrillTools = "isDrawDrillTools" ref="chart"></well-contruct>
-        </div>
-    </div>
+    <a-card title="井深结构图">
+        <well-contruct 
+            :datas="datas" 
+            :isDrawDrillTools = "true" 
+        ></well-contruct>
+    </a-card>
 </template>
 
-<script>
+<script setup>
     import WellContruct from '../../components/well-contruct/well-contruct.vue'
-    import data from './data/problem';
-    export default {
-        name: 'App',
-        components: {
-            WellContruct
-        },
-        data() {
-            return {
-                datas: data,
-                isDrawDrillTools: true,
-                count: undefined
-            }
-        },
-        methods: {
-            refresh() {
-            }
-        }
-    }
+    import datas from './data/problem';
 </script>
-
-<style>
-    #app {
-        font-family: Avenir, Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        color: #2c3e50;
-    }
-</style>
