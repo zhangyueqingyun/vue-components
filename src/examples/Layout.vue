@@ -61,6 +61,7 @@
         padding: 15px 20px;
         border-bottom: 1px solid #eee;
         font-size: 18px;
+        font-weight: 600;
     }
 
     .page-content {
